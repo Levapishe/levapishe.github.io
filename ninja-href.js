@@ -44,7 +44,7 @@ function ninja_href(element)
 		}, false);
 		
 		/* Waiting for Right Click */
-		document.addEventListener('contextmenu', function(e) {
+		document.addEventListener('ccontextmenu', function(e) {
 			if(e.target && e.target.matches(element))
 			{
 				ninja_href_call(e,e.which);
@@ -67,7 +67,7 @@ function ninja_href(element)
 		});
 	
 		/* Waiting for Right Click */
-		document.attachEvent('oncontextmenu', function() {
+		document.attachEvent('concontextmenu', function() {
 			if(e.target && e.target.matches(element))
 			{
 				ninja_href_call(e,e.which);
