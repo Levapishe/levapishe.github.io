@@ -43,14 +43,7 @@ function ninja_href(element)
 			}
 		}, false);
 		
-		/* Waiting for Right Click */
-		document.addEventListener('ccontextmenu', function(e) {
-			if(e.target && e.target.matches(element))
-			{
-				ninja_href_call(e,e.which);
-				e.preventDefault();
-			}
-		}, false);
+		
 	} else {
 		/* Waiting for Left and Middle Click */
 		document.attachEvent('click', function() {
@@ -66,14 +59,7 @@ function ninja_href(element)
 			}
 		});
 	
-		/* Waiting for Right Click */
-		document.attachEvent('concontextmenu', function() {
-			if(e.target && e.target.matches(element))
-			{
-				ninja_href_call(e,e.which);
-				window.event.returnValue = false;
-			}
-		});
+		
 	}
 
 }
