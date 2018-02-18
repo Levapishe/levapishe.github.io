@@ -1,0 +1,80 @@
+	.maincontent{padding-left: 0!important;padding-top: 0!important}
+	.sharebuttons-top{float: none}
+	.sharebuttons-top>a{margin-right: 5px}
+	.maincontent .article>.content{font-size: 17px}
+.maincontent figure{max-width: 100%;clear:both}
+.maincontent figure img{max-width: 100%;height:auto}
+
+.maincontent blockquote{position: relative;text-align: left;font-size: 120%;padding: 20px 0 20px 20px;border: none;border-top: 0 solid #555;border-bottom: 0 solid #555}
+.maincontent blockquote:before{content: "\201C";font-size: 1000%;color: #ddd;font-family: Georgia, "Times New Roman", Times, serif;position: absolute;left: 0;top:0;line-height: 1;z-index:-1}
+.maincontent blockquote footer>cite{margin: 0!important}
+
+	.maincontent figure.pull-right,.maincontent blockquote.pull-right{margin-bottom:20px}
+	.maincontent figure,.maincontent figure>img{width:100%}
+
+	.maincontent .ad-inline{margin:10px 0 10px;border: 0px solid #f5f5f5;max-width:100%;overflow-x:hidden}
+	
+	.maincontent .pull-right{clear:right}
+	.maincontent .article-example{clear:both}
+@media (min-width: 768px){
+	.maincontent .article-relatedpage{clear:right}
+	.maincontent .article{padding-right: 40px}
+	
+	.maincontent figure.pull-right,.maincontent blockquote.pull-right{width: 250px;float: right;margin-left: 20px;clear:right}
+
+	.maincontent .ad-inline{float:right;max-width:300px;clear:right;margin:10px 0 20px 20px;position:relative;left: 30px;margin-left:-15px}
+}
+
+.maincontent .article>.content>h5{border: none!important;font-size: 150%!important}
+.maincontent .article>.content>h6{font-size: 120%}
+.maincontent .article>.content a{font-weight: bold}
+.maincontent .article>.content sup>a{font-weight: normal}
+
+.article>.content figure>img{display: block;margin-bottom: 10px}
+.article>.content figure>figcaption:before{content: "\e046";font-family: 'Glyphicons Halflings';margin-right: 10px;position:relative;top: 1px}
+.article>.content figure>figcaption{font-size: 70%;color: #999999}
+
+.article-learnmore{background: #f5f5f5;border-radius: 2px;box-shadow: inset 0 0 1px rgba(0,0,0,0.5);padding: 5px 10px;display: none}
+.article-learnmore:after{font-family: 'Glyphicons Halflings';content: "\e258";float: right;}
+.article-citations li{font-size: 75%!important}
+
+
+.content>p:first-child{font-weight: 600}
+.content>p:first-child::first-letter{font-size: 440%;float: left;display: block;line-height: 1;margin-right:10px;margin-top: -3px;font-family:Georgia;font-weight:400}
+h1{font-size:300%;font-weight:400}
+
+.maincontent>h6	{font-weight:300;font-size:140%}
+.content>p+h3,.content>p+h4,.content>p+h5,.content>p+h6,
+.content>ul+h3,.content>ul+h4,.content>ul+h5,.content>ul+h6{margin-top:40px}
+
+/* default3 */
+
+.content p,.content li,h1,.byline{font-family:'Raleway', Arial, sans-serif;margin-top:0;}
+h1 {font-size:32px;font-weight:800;color: rgba(0,0,0,0.9)}
+@media(min-width:768px){
+	h1 {font-size:50px}
+	.maincontent .ad-inline{margin-left:25px}
+
+}
+.byline{color: rgba(0,0,0,0.6)}
+.breadcrumb{display:none}
+
+.content p,.content li{font-size:95%!important;line-height:190%!important}
+
+.content>p:first-child{font-weight:300;font-size:110%!important;line-height:1.5!important}
+.content>p:first-child::first-letter{font-family:inherit;font-weight:600;font-size:320%;margin-bottom:-3px;color:#000}
+.content>p:first-child::first-line{font-weight:600}
+
+.content>p:first-child::first-letter{}
+.header-category,.rightcolnew-header{color:#e0862c}
+.sharebuttons-top a:hover{opacity:0.8}
+.sharebuttons-top>*{margin-bottom:2px;display:block}
+.sharebuttons-top .icon, .sharebuttons-top .sharebuttons-shares{border-radius:0;width:42px;height:42px;border: 9px solid #000;top:0}
+.sharebuttons-top .sharebutton-facebook .icon{border-color:#3B5998}
+.sharebuttons-top .sharebutton-twitter .icon{border-color:#00B0ED}
+.sharebuttons-top .sharebutton-stumbleupon .icon{border-color:#EB4823}
+.sharebuttons-top .sharebutton-pinterest .icon{border-color:#CB2028}
+.sharebuttons-top .sharebutton-googleplus .icon{border-color:#DD4B38}
+
+.sharebuttons-top .sharebuttons-shares{clear:both;display:block;width:100%;text-align:center;border:1px solid #ccc;color:#555;width:42px;font-family:sans-serif;font-size:90%;overflow:hidden;line-height:1.2;padding-top:5px}
+.sharebuttons-top .sharebuttons-shares .glyphicon{opacity:0.6;font-size:120%}
